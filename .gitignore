@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local POC data (generated/downloaded datasets, DB volumes)
+pocs/**/data/
+pocs/**/volumes/
+*.duckdb
+*.db
+*.sqlite
+# Airflow runtime files (docker compose)
+pocs/**/logs/
+pocs/**/.env
+pocs/**/config/airflow.cfg
